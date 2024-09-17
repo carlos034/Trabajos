@@ -1,0 +1,1 @@
+No es necesario tener un script de base de datos ya que se maneja directamente desde el codigo fuente

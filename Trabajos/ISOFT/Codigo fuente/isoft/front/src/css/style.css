@@ -1,0 +1,272 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para pantallas más pequeñas */
+  
+  @media (max-width: 767px) {
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .input-group {
+      flex-direction: column;
+    }
+  
+    .label {
+      margin-bottom: 3px;
+    }
+  
+    .input {
+      padding: 8px;
+    }
+  
+    .button {
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Estilos para pantallas más grandes */
+  
+  @media (min-width: 1200px) {
+    .container {
+      padding: 40px;
+    }
+  
+    .form-group {
+      margin-bottom: 30px;
+    }
+  
+    .input {
+      padding: 12px;
+    }
+  
+    .button {
+      padding: 12px 24px;
+    }
+}
+
+/*Estilo del register*/
+body {
+    background-image: url('../imagen/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .register-container {
+    max-width: 370px;
+    max-height: 520px;
+    height: auto;
+    margin: 150px auto 0;
+    padding: 40px;
+    background-color: #e9e5e5;
+    border-radius: 5px;
+  }
+
+  .corner-image {
+    position: absolute;
+    top: -260px;
+    right: -70px;
+    width: 500px;
+    height: 500px;
+    background-image: url('../imagen/logo.png');
+    background-repeat: no-repeat;
+    background-size: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  button:active {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .terms-and-conditions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .terms-and-conditions input[type="checkbox"] {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .terms-and-conditions input[type="checkbox"]::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  
+  .terms-and-conditions input[type="checkbox"]:checked::before {
+    visibility: visible;
+  }
+  
+  .terms-and-conditions label {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+ 
+/*Estilo del login*/
+  
+.form-gro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    visibility: visible;
+  }
+  
+  label {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .form-group.terms-and-conditions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  Link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .error-container {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    margin-bottom: 5px;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .box a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  
