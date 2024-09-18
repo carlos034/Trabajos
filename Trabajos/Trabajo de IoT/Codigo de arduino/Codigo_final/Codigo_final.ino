@@ -9,10 +9,10 @@ String ssid = "";
 String password = "";
 
 // Configuración del broker MQTT
-const char* mqtt_server = "nd8da190.ala.us-east-1.emqxsl.com";
-const int mqtt_port = 8883;
-const char* mqtt_user = "carlos"; // Si tu broker requiere autenticación
-const char* mqtt_password = "carlos1616"; // Si tu broker requiere autenticación
+const char* mqtt_server = "";
+const int mqtt_port = ;
+const char* mqtt_user = ""; // Si tu broker requiere autenticación
+const char* mqtt_password = ""; // Si tu broker requiere autenticación
 
 const int sensorPin = 34;  // Pin analógico donde está conectado el sensor de turbidez
 #define relay1 5           // Define el pin del relé
